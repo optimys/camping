@@ -1,0 +1,110 @@
+/*
+Theme Name: Mountain
+Template: mountain-creek
+*/
+
+#wrapper{
+background-image: url(/wp-content/uploads/2015/07/5797.png);
+border-radius: 6px;
+}
+
+#header .header-bot {
+overflow: hidden !important;
+position: absolute !important;
+top: 10px !important; 
+right: 10px !important;
+width: 0px !important;
+}
+
+@media screen and (min-width: 1280px){
+.image_r2d1 {
+margin-top: 8px;
+margin-left: -10px;
+}
+
+.image_r2d2 img{
+margin-left: 13px;
+position: absolute;
+border-radius: 6px;
+}
+
+.image_r2d3{
+position: absolute;
+margin-top: -13px;
+margin-left: -4px;
+width: 100%;
+}
+
+.image_r2d4{
+position: absolute;
+margin-left: 34px;
+margin-top: 25px;
+}
+
+.image_r2d5{
+position:absolute;
+margin-left: 793px;
+margin-top: 5px;
+width: 100%;
+}
+
+.image_r2d6{
+position: absolute;
+margin-left: 664px;
+margin-top: 7px;
+}
+
+.r2d7{
+font-family: Comic Sans MS;
+font-weight: bold;
+font-style: normal;
+font-size: 32px;
+text-decoration: none;
+color: #FFF;
+letter-spacing: 0em;
+}
+
+.sidebar-nav li {
+background: url(/wp-content/uploads/2015/07/3310.png) no-repeat #B1CCFA!important;
+}
+
+.sidebar .sidebar-nav li a {
+font: bold 12px/28px Arial,Helvetica,sans-serif !important;
+display: block !important;
+padding: 0px 8px !important;
+word-wrap: break-word !important;
+color: #FFF !important;
+}
+
+#container .sidebar .sidebar-nav {
+-webkit-box-shadow: 0px 0px 0px #B1CCFA !important;
+}
+
+.sidebar .sidebar-nav li {
+color: #FFF !important;
+height: auto !important;
+margin: 0px -23px 18px !important;
+position: relative !important;
+z-index: 52 !important;
+list-style: none outside none !important;
+width: 74% !important;
+text-align: center !important;
+}
+
+.sidebar .sidebar-nav li a:focus {
+text-decoration: none !important;
+cursor: pointer !important;
+background: url(/wp-content/uploads/2015/07/3310.png) no-repeat !important;
+}
+
+.sidebar .sidebar-nav li:hover{
+text-decoration: none !important;
+cursor: pointer !important;
+background: url(/wp-content/uploads/2015/07/3310.png) no-repeat !important;
+}
+
+
+
+
+
+}
