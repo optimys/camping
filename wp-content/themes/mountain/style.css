@@ -94,15 +94,23 @@ text-align: center !important;
 .sidebar .sidebar-nav li a:focus {
 text-decoration: none !important;
 cursor: pointer !important;
-background: url(/wp-content/uploads/2015/07/3310.png) no-repeat !important;
+background: url(/wp-content/uploads/2015/07/3311.png) no-repeat !important;
 }
 
 .sidebar .sidebar-nav li:hover{
 text-decoration: none !important;
 cursor: pointer !important;
-background: url(/wp-content/uploads/2015/07/3310.png) no-repeat !important;
+background: url(/wp-content/uploads/2015/07/3311.png) no-repeat !important;
 }
 
+.sidebar-nav .current-menu-item a {
+color: #FFF !important;
+text-decoration: none !important;
+cursor: pointer !important;
+background: url(/wp-content/uploads/2015/07/3312.png) no-repeat !important;
+display: block !important;
+height: auto !important;
+}
 
 
 

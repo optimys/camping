@@ -84,7 +84,7 @@ function name_enqueue_styles() {
     global $meta_fields;  // Массив с нашими полями
  
     // проверяем наш проверочный код
-    if (!wp_verify_nonce($_POST['custom_meta_box_nonce'], basename(__FILE__)))  
+    //if (!wp_verify_nonce($_POST['custom_meta_box_nonce'], basename(__FILE__)))  
         return $post_id;  
     // Проверяем авто-сохранение
     if (defined('DOING_AUTOSAVE') && DOING_AUTOSAVE)  
